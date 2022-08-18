@@ -1,0 +1,111 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+#background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 800px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    margin-top: 200px;
+    text-align: center;
+    color: White;
+}
+
+.button {
+    background-color: lightsalmon;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+    width: 105px;
+    height: 35px;
+    margin-bottom: 45px;
+}
+
+.container {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.incontent {
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.input1 {
+    width: 300px;
+    height: 20px;
+    margin-top: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button {
+    width: 300px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    color: black;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    width: 310px;
+    height: 25px;
+}
